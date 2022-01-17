@@ -218,4 +218,5 @@ input {overflow: visible;}
 .footer-area .copyright_part_text p {color: #777;}
 .footer-area .copyright_part_text a {color: #fe5c24;}
 .form-control:focus{box-shadow: none;}
+.footer-area .footer_icon .social-icons a:hover {color: #fe5c24;}
 /*Footer Css End*/

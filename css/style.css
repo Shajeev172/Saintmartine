@@ -84,8 +84,12 @@ a.dropdown-item{text-transform: capitalize;}
 #search .main-form .input-item input{padding: 16px;}
 #search .main-form .input-item i {position: absolute;right: 4px;top: 23%;transform: translateY(50%);}
 #search .main-form .form-btn{display: inline-block;padding: 13px 30px;border-radius: 0;font-size: 16px;color: #fff;text-transform: capitalize;-webkit-transition: 0.5s;transition: 0.3s;background-color: #fe5c24;font-weight: 500;border: none;}
-#search .form-field{border-color: #2493e0;color: #2493e0;padding: 0 8px;}
-
+#search .form-field{border-color: #2493e0;color: #2493e0;border-width: 2px;}
+#search .form-field:focus{outline: none;}
+#search input:focus{outline: none;}
+#search input{border-color: #2493e0;color: #2493e0;}
+#hotel-form:focus{outline: none;}
+#hotel-form select{padding-left: 9px}
 /*Search Form CSS Code End*/
 
 
